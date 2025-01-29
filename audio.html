@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--HOW TO INCLUDE AUDIO IN HTML-->
+
+<html lang="eng">
+    <head>
+        <meta>
+        <meta>
+        <meta>
+        <title>Include Audio</title>
+    </head>
+
+    <body>
+
+        <p>
+            Evening Telecast
+        </p>
+        <audio controls autoplay muted loop>     <!--audio tags + add elements: controls(audio bar with play/Stop/volume) autoplay, muted (song is playing muted) loop (make song loop)-->
+            <source src="/songsAndAudio/Play Again_ - Evening Telecast.mp3" type="audio/mpeg"> <!--source element, set the source attribute = to audio file, can specify file type-->
+            <source src="/songsAndAudio/Play Again_ - Evening Telecast.wav"type="audio/wav"> <!--fallback if webbrowser doesn't support mp3-->
+        </audio>
+
+        <h3>Evening Telecast</h3>
+        <audio controls>
+            <source src="/songsAndAudio/Play Again_ - Evening Telecast.mp3">
+        </audio>
+
+    </body>
+</html>
